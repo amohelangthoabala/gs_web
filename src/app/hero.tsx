@@ -15,22 +15,21 @@ function Hero() {
       />
       <div className="container mx-auto mt-28">
         <div className="grid grid-cols-12 text-center lg:text-left">
-          <Card className="col-span-full rounded-xl border border-white bg-white/90 py-10 p-8 shadow-lg shadow-black/10 backdrop-blur-sm backdrop-saturate-200 xl:col-span-7">
+          <Card placeholder={undefined} className="col-span-full rounded-xl border border-white bg-white/90 py-10 p-8 shadow-lg shadow-black/10 backdrop-blur-sm backdrop-saturate-200 xl:col-span-7">
             <Typography
               variant="h1"
               color="blue-gray"
-              className="lg:text-5xl !leading-snug text-3xl lg:max-w-3xl"
-            >
+              className="lg:text-5xl !leading-snug text-3xl lg:max-w-3xl" placeholder={undefined}            >
               Unlock the Power of the God with our Integrity of the Word
             </Typography>
-            <Typography variant="lead" className="mb-10 mt-6 !text-gray-900">
+            <Typography variant="lead" className="mb-10 mt-6 !text-gray-900" placeholder={undefined}>
               Are you ready to embark on an exciting christian with other
               Children of God? Look no further! Our integerity is the word of God
-              and it continually gain it's mastery over us.
+              and it continually gain it&apos;s mastery over us.
             </Typography>
             <div className="mb-8 flex justify-center gap-4 lg:justify-start">
-              <Button color="gray">Watch our Sermons</Button>
-              <Button color="gray" variant="outlined">
+              <Button placeholder={undefined} color="gray">Watch our Sermons</Button>
+              <Button placeholder={undefined} color="gray" variant="outlined">
                 View More sermons
               </Button>
             </div>
