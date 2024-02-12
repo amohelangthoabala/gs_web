@@ -16,13 +16,13 @@ export default function Campaign() {
     <>
       <Navbar />
       <Hero />
-      {/* <OutImpressiveStats />
+      <OutImpressiveStats />
+      <Events />
       <CoursesCategories />
       <ExploreCourses />
-      <Testimonial />
-      <Events />
+      {/* <Testimonial />
       <StudentsFeedback />
-      <TrustedCompany /> */}
+      <TrustedCompany />  */}
       {/* <Footer /> */}
     </>
   );

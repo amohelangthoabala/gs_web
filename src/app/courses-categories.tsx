@@ -47,16 +47,7 @@ const CATEGORIES = [
 
 export function CoursesCategories() {
   return (
-    <section className="container mx-auto px-8 py-36">
-      <div className="mb-20 grid place-items-center text-center">
-        <Typography variant="h2" color="blue-gray" className="my-3" placeholder={undefined}>
-          Courses Categories
-        </Typography>
-        <Typography variant="lead" className="!text-gray-500 lg:w-6/12" placeholder={undefined}>
-          A comprehensive selection of courses designed to empower you with the
-          skills you need to thrive in the dynamic world of web development.
-        </Typography>
-      </div>
+    <section className="container mx-auto px-8 py-26">
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
         <Card
           color="gray"
@@ -64,24 +55,24 @@ export function CoursesCategories() {
           <div className="absolute inset-0 h-full w-full bg-gray-900/75" />
           <CardBody className="relative w-full" placeholder={undefined}>
             <Typography color="white" className="text-xs font-bold opacity-50" placeholder={undefined}>
-              HTML, CSS & Javascript
+              Ground Shakers eFam
             </Typography>
             <Typography variant="h4" className="mt-9" color="white" placeholder={undefined}>
-              Web Development Intro
+              Lets Fellowship Online
             </Typography>
             <Typography
               color="white"
               className="mt-4 mb-14 font-normal opacity-50"
               placeholder={undefined}
             >
-              Ready to start your web development journey?
+              Ready to Take Your Christian journey to the Next Level?
             </Typography>
             <Button size="sm" color="white" placeholder={undefined}>
-              Enroll Now
+              Join Now
             </Button>
           </CardBody>
         </Card>
-        <div className="col-span-1 flex flex-col gap-6">
+        {/* <div className="col-span-1 flex flex-col gap-6">
           {CATEGORIES.slice(0, 2).map((props, key) => (
             <CategoryCard key={key} {...props} />
           ))}
@@ -90,7 +81,7 @@ export function CoursesCategories() {
           {CATEGORIES.slice(2, 4).map((props, key) => (
             <CategoryCard key={key} {...props} />
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
