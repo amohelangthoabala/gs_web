@@ -10,9 +10,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "NextJS Tailwind Course Landing Page",
+  title: "GroundShakers Church",
   description:
-    "Introducing Tailwind Course Landing Page, a versatile and engaging landing page template designed using Tailwind CSS and Material Tailwind.",
+    "Learn, Grow And Experience Life as God Deems for you. Watch And Listen to our Messages And Get a Closer Look of Our Upcoming Events",
 };
 
 export default function RootLayout({
