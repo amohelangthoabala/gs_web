@@ -135,7 +135,7 @@ export function Navbar() {
                   href="https://www.material-tailwind.com/blocks"
                   target="_blank"
                 >
-                  <Button placeholder={undefined} color="gray">blocks</Button>
+                  <Button placeholder={undefined} color="gray">Giving</Button>
                 </a>
               </div>
             </div>
